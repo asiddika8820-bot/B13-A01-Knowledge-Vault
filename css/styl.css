@@ -1,0 +1,151 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.menubar {
+       display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    border-bottom: 1px solid bisque;
+}
+ .menu{
+    width: 92%;
+    max-width: 1600px;
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    gap: 32px;
+    justify-content: center;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.btn{
+    height: 44px;
+    width: 164px;
+    display: inline-block;
+    background-color: #2f8f5b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-right: 120px;
+ 
+
+}
+
+.logo{
+    margin-left: 30px;
+    height: 60px;
+    width: 139px;
+   
+}
+#banner {
+  
+    background-image: url("../assets/hero-bg.png");
+    height: 600px;
+    width: 1600pxs;
+    
+}
+
+ .ban-text {
+  text-align: center;
+  padding: 77px;
+ }
+
+ .early{
+    font-size: 16px;
+    border-radius: 8px;
+    color: #30b868;
+    padding: 8px 12px;
+ }
+.ban-text h1{
+     font-size: 72px;
+     color: white;
+}
+ .ban-text h1 span{
+     font-size: 72px;
+     color: #30b868;
+}
+
+.ban-text p{
+
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+ .btn2{
+    
+    padding: 32px;
+    gap: 16px;
+   
+}
+.btn-green{
+
+    background-color: #469165;
+    height: 52px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.btn-clear{
+
+    border: 1px solid #9ca3af;
+    height: 52px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.sec-2 h1{
+      color: black;
+      font-size: 48px;
+      font-style: Bold;
+      text-align: center;
+      padding: 120px 0px 0px;
+
+
+}
+.msg p{
+
+    font-size: 16px;
+    text-align: center;
+      
+}
+.part-3{
+ display: flex;
+ justify-content: space-between;
+ padding: 44px;
+ padding: 120px;
+ gap: 24px;
+ 
+
+}
+
+.notes{
+
+    padding: 24px;
+    border: 2px solid hwb(0 78% 19%);
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0,0,0.6);
+}
+.notes h3{
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+ .notes p{
+
+    font-size: 16px;
+    text-align: center;
+ }
+    
+
+    
